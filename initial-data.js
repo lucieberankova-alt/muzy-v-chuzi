@@ -1,0 +1,436 @@
+window.MUZY_INITIAL_DATA = {
+  "appName": "Múzy v chůzi",
+  "source": "Chození 2026.xlsx",
+  "generatedAt": "2026-07-13T17:13:08",
+  "routes": [
+    {
+      "id": "2026-06-10",
+      "date": "2026-06-10",
+      "dateLabel": "10. 6. 2026",
+      "title": "Z Budějovické přes Krčský les na Roztyly",
+      "mapUrl": "",
+      "image": "",
+      "distanceKm": null,
+      "rating": 3,
+      "note": "",
+      "tags": [
+        "městská trasa",
+        "les",
+        "metro"
+      ],
+      "start": {
+        "lat": 50.0446586,
+        "lng": 14.4487581
+      },
+      "status": "completed",
+      "difficulty": "",
+      "sourceSheet": "10.6."
+    },
+    {
+      "id": "2026-06-22",
+      "date": "2026-06-22",
+      "dateLabel": "22. 6. 2026",
+      "title": "Ze Zlíchova přes Slivenec do Malé Chuchle",
+      "mapUrl": "https://mapy.com/s/kalemunoho",
+      "image": "images/route-2026-06-22.png",
+      "distanceKm": 12.6,
+      "rating": 5,
+      "note": "",
+      "tags": [
+        "údolí",
+        "stoupání",
+        "mimo Prahu"
+      ],
+      "start": {
+        "lat": 50.0463419,
+        "lng": 14.4079581
+      },
+      "status": "completed",
+      "difficulty": "",
+      "sourceSheet": "22. 6. "
+    },
+    {
+      "id": "2026-06-24",
+      "date": "2026-06-24",
+      "dateLabel": "24. 6. 2026",
+      "title": "Ze Spořilova podél Botiče do Průhonic",
+      "mapUrl": "https://mapy.com/s/dapodarahu",
+      "image": "images/route-2026-06-24.png",
+      "distanceKm": 13.2,
+      "rating": 3,
+      "note": "",
+      "tags": [
+        "podél vody",
+        "mimo Prahu"
+      ],
+      "start": {
+        "lat": 50.0477981,
+        "lng": 14.4901953
+      },
+      "status": "completed",
+      "difficulty": "",
+      "sourceSheet": "24. 6. "
+    },
+    {
+      "id": "2026-06-30",
+      "date": "2026-06-30",
+      "dateLabel": "30. 6. 2026",
+      "title": "Z Neveklovské přes Jezerku na Florenc",
+      "mapUrl": "",
+      "image": "",
+      "distanceKm": null,
+      "rating": 2,
+      "note": "",
+      "tags": [
+        "městská trasa",
+        "podél vody"
+      ],
+      "start": {
+        "lat": 50.0476936,
+        "lng": 14.4412997
+      },
+      "status": "completed",
+      "difficulty": "",
+      "sourceSheet": "30.6."
+    },
+    {
+      "id": "2026-07-01",
+      "date": "2026-07-01",
+      "dateLabel": "1. 7. 2026",
+      "title": "Ze Všenor přes Jíloviště na Zbraslav",
+      "mapUrl": "https://mapy.com/s/cebubezodu",
+      "image": "images/route-2026-07-01.png",
+      "distanceKm": 12.5,
+      "rating": 4,
+      "note": "",
+      "tags": [
+        "stoupání",
+        "les",
+        "mimo Prahu"
+      ],
+      "start": {
+        "lat": 49.9329833,
+        "lng": 14.30583
+      },
+      "status": "completed",
+      "difficulty": "",
+      "sourceSheet": "1. 7."
+    },
+    {
+      "id": "2026-07-07",
+      "date": "2026-07-07",
+      "dateLabel": "7. 7. 2026",
+      "title": "Z Psár přes Záhořanský potok do Davle žst",
+      "mapUrl": "https://mapy.com/s/cekudubame",
+      "image": "images/route-2026-07-07.png",
+      "distanceKm": 11.6,
+      "rating": 2,
+      "note": "",
+      "tags": [
+        "podél vody",
+        "mimo Prahu"
+      ],
+      "start": {
+        "lat": 49.9322467,
+        "lng": 14.5083875
+      },
+      "status": "completed",
+      "difficulty": "",
+      "sourceSheet": "7. 7."
+    },
+    {
+      "id": "2026-07-09",
+      "date": "2026-07-09",
+      "dateLabel": "9. 7. 2026",
+      "title": "Z Úval do Dolních Počernic",
+      "mapUrl": "https://mapy.com/s/mocumahapa",
+      "image": "images/route-2026-07-09.png",
+      "distanceKm": 14.3,
+      "rating": 2,
+      "note": "",
+      "tags": [
+        "rovná trasa",
+        "mimo Prahu"
+      ],
+      "start": {
+        "lat": 50.0754636,
+        "lng": 14.7213458
+      },
+      "status": "completed",
+      "difficulty": "",
+      "sourceSheet": "9. 7. "
+    }
+  ],
+  "plannedRoutes": [
+    {
+      "id": "plan-černošice-horem-přes-radotín-zbraslav-a-modřeny",
+      "date": "",
+      "dateLabel": "plánováno",
+      "title": "Černošice horem přes Radotín, Zbraslav a Modřeny",
+      "mapUrl": "https://mapy.com/s/mezemugotu",
+      "image": "",
+      "distanceKm": 13.5,
+      "rating": 0,
+      "note": "",
+      "tags": [],
+      "start": {
+        "lat": 49.9595489,
+        "lng": 14.3234225
+      },
+      "status": "planned",
+      "sourceSheet": "Plánované"
+    },
+    {
+      "id": "plan-černošice-modřany-přes-golf-a-zbraslav",
+      "date": "",
+      "dateLabel": "plánováno",
+      "title": "Černošice - Modřany přes golf a Zbraslav",
+      "mapUrl": "https://mapy.com/s/dacebonole",
+      "image": "",
+      "distanceKm": 11.2,
+      "rating": 0,
+      "note": "",
+      "tags": [],
+      "start": {
+        "lat": 49.9595489,
+        "lng": 14.3234225
+      },
+      "status": "planned",
+      "sourceSheet": "Plánované"
+    },
+    {
+      "id": "plan-modřany-zbraslav-přes-cholupice-a-komořany",
+      "date": "",
+      "dateLabel": "plánováno",
+      "title": "Modřany - Zbraslav přes Cholupice a Komořany",
+      "mapUrl": "https://mapy.com/s/dohadukaku",
+      "image": "",
+      "distanceKm": 12.6,
+      "rating": 0,
+      "note": "",
+      "tags": [],
+      "start": {
+        "lat": 50.0061986,
+        "lng": 14.4401889
+      },
+      "status": "planned",
+      "sourceSheet": "Plánované"
+    },
+    {
+      "id": "plan-modřany-zbraslav-přes-závist",
+      "date": "",
+      "dateLabel": "plánováno",
+      "title": "Modřany - Zbraslav přes Závist",
+      "mapUrl": "https://mapy.com/s/lumakefuve",
+      "image": "",
+      "distanceKm": 14.0,
+      "rating": 0,
+      "note": "",
+      "tags": [],
+      "start": {
+        "lat": 50.0061986,
+        "lng": 14.4401889
+      },
+      "status": "planned",
+      "sourceSheet": "Plánované"
+    },
+    {
+      "id": "plan-jílové-horní-jirčany-přes-chotouň",
+      "date": "",
+      "dateLabel": "plánováno",
+      "title": "Jílové - Horní Jirčany přes Chotouň",
+      "mapUrl": "https://mapy.com/s/gosulobave",
+      "image": "",
+      "distanceKm": 11.3,
+      "rating": 0,
+      "note": "",
+      "tags": [],
+      "start": {
+        "lat": 49.8944158,
+        "lng": 14.4934542
+      },
+      "status": "planned",
+      "sourceSheet": "Plánované"
+    },
+    {
+      "id": "plan-jílové-horní-jirčany",
+      "date": "",
+      "dateLabel": "plánováno",
+      "title": "Jílové - Horní Jirčany",
+      "mapUrl": "https://mapy.com/s/dupamaduha",
+      "image": "",
+      "distanceKm": 13.3,
+      "rating": 0,
+      "note": "",
+      "tags": [],
+      "start": {
+        "lat": 49.8944158,
+        "lng": 14.4934542
+      },
+      "status": "planned",
+      "sourceSheet": "Plánované"
+    },
+    {
+      "id": "plan-řitka-jíloviště",
+      "date": "",
+      "dateLabel": "plánováno",
+      "title": "Řitka - Jíloviště",
+      "mapUrl": "https://mapy.com/s/gogelusuto",
+      "image": "",
+      "distanceKm": 11.1,
+      "rating": 0,
+      "note": "",
+      "tags": [],
+      "start": {
+        "lat": 49.8945147,
+        "lng": 14.2992328
+      },
+      "status": "planned",
+      "sourceSheet": "Plánované"
+    },
+    {
+      "id": "plan-vestec-budějovická",
+      "date": "",
+      "dateLabel": "plánováno",
+      "title": "Vestec - Budějovická",
+      "mapUrl": "https://mapy.com/s/kubujekofe",
+      "image": "",
+      "distanceKm": 12.9,
+      "rating": 0,
+      "note": "",
+      "tags": [],
+      "start": {
+        "lat": 49.9837683,
+        "lng": 14.4953003
+      },
+      "status": "planned",
+      "sourceSheet": "Plánované"
+    },
+    {
+      "id": "plan-roztoky-podbaba-přes-horoměřice",
+      "date": "",
+      "dateLabel": "plánováno",
+      "title": "Roztoky - Podbaba  přes Horoměřice",
+      "mapUrl": "https://mapy.com/s/gejubazopo",
+      "image": "",
+      "distanceKm": 12.2,
+      "rating": 0,
+      "note": "",
+      "tags": [],
+      "start": {
+        "lat": 50.159645,
+        "lng": 14.3984175
+      },
+      "status": "planned",
+      "sourceSheet": "Plánované"
+    },
+    {
+      "id": "plan-liboc-bořislavka-okružní-šárkou",
+      "date": "",
+      "dateLabel": "plánováno",
+      "title": "Liboc - Bořislavka  okružní Šárkou",
+      "mapUrl": "https://mapy.com/s/mugogefove",
+      "image": "",
+      "distanceKm": 12.6,
+      "rating": 0,
+      "note": "",
+      "tags": [],
+      "start": {
+        "lat": 50.0956356,
+        "lng": 14.3463822
+      },
+      "status": "planned",
+      "sourceSheet": "Plánované"
+    },
+    {
+      "id": "plan-dejvická-bořislavka-přes-matěje-housle-a-jenerálku",
+      "date": "",
+      "dateLabel": "plánováno",
+      "title": "Dejvická - Bořislavka přes Matěje, Housle a Jenerálku",
+      "mapUrl": "",
+      "image": "",
+      "distanceKm": null,
+      "rating": 0,
+      "note": "",
+      "tags": [],
+      "start": {
+        "lat": 50.1005097,
+        "lng": 14.3927536
+      },
+      "status": "planned",
+      "sourceSheet": "Plánované"
+    },
+    {
+      "id": "plan-levý-hradec-roztoky-přes-úholičky",
+      "date": "",
+      "dateLabel": "plánováno",
+      "title": "Levý Hradec - Roztoky přes Úholičky",
+      "mapUrl": "https://mapy.com/s/fopokabusu",
+      "image": "",
+      "distanceKm": 11.7,
+      "rating": 0,
+      "note": "",
+      "tags": [],
+      "start": {
+        "lat": 50.1679267,
+        "lng": 14.3644667
+      },
+      "status": "planned",
+      "sourceSheet": "Plánované"
+    },
+    {
+      "id": "plan-řež-ďáblice-přes-klecany-a-zdiby",
+      "date": "",
+      "dateLabel": "plánováno",
+      "title": "Řež - Ďáblice přes Klecany a Zdiby",
+      "mapUrl": "https://mapy.com/s/damohufosu",
+      "image": "",
+      "distanceKm": 13.2,
+      "rating": 0,
+      "note": "",
+      "tags": [],
+      "start": {
+        "lat": 50.1794053,
+        "lng": 14.3557061
+      },
+      "status": "planned",
+      "sourceSheet": "Plánované"
+    },
+    {
+      "id": "plan-libčice-čimice-přívozem-přes-klecánky",
+      "date": "",
+      "dateLabel": "plánováno",
+      "title": "Libčice - Čimice přívozem přes Klecánky",
+      "mapUrl": "https://mapy.com/s/jogamujebo",
+      "image": "",
+      "distanceKm": 13.6,
+      "rating": 0,
+      "note": "",
+      "tags": [],
+      "start": {
+        "lat": 50.2039708,
+        "lng": 14.3649567
+      },
+      "status": "planned",
+      "sourceSheet": "Plánované"
+    },
+    {
+      "id": "plan-dubeč-háje-přes-uhřiněves",
+      "date": "",
+      "dateLabel": "plánováno",
+      "title": "Dubeč - Háje přes Uhřiněves",
+      "mapUrl": "https://mapy.com/s/nocetebape",
+      "image": "",
+      "distanceKm": 13.9,
+      "rating": 0,
+      "note": "",
+      "tags": [],
+      "start": {
+        "lat": 50.0617333,
+        "lng": 14.5966092
+      },
+      "status": "planned",
+      "sourceSheet": "Plánované"
+    }
+  ]
+};

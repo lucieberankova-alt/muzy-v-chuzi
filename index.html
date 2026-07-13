@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="cs">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Múzy v chůzi</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="app-header">
+      <div class="header-inner">
+        <div>
+          <p class="eyebrow">pěší deník</p>
+          <h1>Múzy v chůzi</h1>
+        </div>
+        <div class="header-actions">
+          <span class="sync-pill" id="syncStatus">Excel zdroj</span>
+          <button class="button button-primary" id="refreshButton" type="button">Obnovit</button>
+        </div>
+      </div>
+    </header>
+
+    <main class="app-shell">
+      <section class="summary-bar" aria-label="Souhrn tras">
+        <article>
+          <span id="statRoutes">0</span>
+          <p>tras</p>
+        </article>
+        <article>
+          <span id="statKm">0 km</span>
+          <p>Prochozené km</p>
+        </article>
+        <article>
+          <span id="statRating">-</span>
+          <p>průměrná náročnost</p>
+        </article>
+        <article>
+          <span id="statMissing">0</span>
+          <p>k doplnění</p>
+        </article>
+      </section>
+
+      <nav class="view-tabs" aria-label="Zobrazení">
+        <button class="view-tab is-active" data-view="diary" type="button">Deník</button>
+        <button class="view-tab" data-view="planned" type="button">Plánované</button>
+        <button class="view-tab" data-view="map" type="button">Mapa</button>
+      </nav>
+
+      <section class="toolbar" aria-label="Filtrování tras">
+        <label class="search-box">
+          <span>Hledat</span>
+          <input id="searchInput" type="search" placeholder="Název, poznámka, štítek">
+        </label>
+        <div class="segmented" role="group" aria-label="Filtr">
+          <button class="segment is-active" data-filter="all" type="button">Vše</button>
+          <button class="segment" data-filter="missing" type="button">K doplnění</button>
+        </div>
+      </section>
+
+      <section class="route-grid" id="routeGrid" aria-live="polite"></section>
+      <section class="map-view is-hidden" id="mapView" aria-label="Mapa startů tras">
+        <div class="map-panel">
+          <div id="routeMap" class="route-map"></div>
+          <div class="map-legend">
+            <span><i class="legend-dot legend-done"></i>prošlé trasy</span>
+            <span><i class="legend-dot legend-planned"></i>plánované trasy</span>
+          </div>
+        </div>
+        <div class="map-list" id="mapList"></div>
+      </section>
+      <p class="empty-state is-hidden" id="emptyState">Žádná trasa neodpovídá filtru.</p>
+    </main>
+
+    <dialog class="route-dialog" id="routeDialog">
+      <form method="dialog" class="dialog-card" id="routeForm">
+        <div class="dialog-head">
+          <div>
+            <p class="eyebrow" id="dialogMode">detail trasy</p>
+            <h2 id="dialogTitle">Trasa</h2>
+          </div>
+          <button class="icon-button" value="cancel" type="button" id="closeDialogButton" aria-label="Zavřít">×</button>
+        </div>
+
+        <input id="routeId" type="hidden">
+
+        <div class="image-edit">
+          <div class="image-preview" id="imagePreview"></div>
+          <div class="route-readonly">
+            <p><span>Datum</span><strong id="readonlyDate"></strong></p>
+            <p><span>Délka</span><strong id="readonlyDistance"></strong></p>
+            <p><span>Mapy.com</span><a id="readonlyUrl" target="_blank" rel="noreferrer"></a></p>
+          </div>
+        </div>
+
+        <fieldset class="rating-field">
+          <legend>Náročnost</legend>
+          <div class="stars" id="ratingStars"></div>
+        </fieldset>
+
+        <label>
+          <span>Komentář</span>
+          <textarea id="routeNote" rows="4" readonly placeholder="Komentář bude v Excelu."></textarea>
+        </label>
+
+        <p class="form-message" id="formMessage" role="status"></p>
+
+        <div class="dialog-actions">
+          <span></span>
+          <button class="button button-primary" id="cancelButton" type="button">Zavřít</button>
+        </div>
+      </form>
+    </dialog>
+
+    <template id="routeCardTemplate">
+      <article class="route-card">
+        <button class="route-image" type="button"></button>
+        <div class="route-body">
+          <div class="route-meta">
+            <span class="date"></span>
+            <span class="distance"></span>
+          </div>
+          <h2></h2>
+          <div class="card-stars"></div>
+          <p class="note"></p>
+          <div class="tag-row"></div>
+          <div class="missing-row"></div>
+          <div class="card-actions">
+            <a class="map-link" target="_blank" rel="noreferrer">Mapy.com</a>
+            <button class="button button-quiet edit-button" type="button">Upravit</button>
+          </div>
+        </div>
+      </article>
+    </template>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="initial-data.js"></script>
+    <script src="app-map.js"></script>
+  </body>
+</html>
