@@ -1,26 +1,26 @@
 {
   "appName": "Múzy v chůzi",
   "source": "Chození 2026.xlsx",
-  "generatedAt": "2026-07-14T09:51:55",
+  "generatedAt": "2026-07-14T16:36:32",
   "routes": [
     {
       "id": "2026-06-10",
       "date": "2026-06-10",
       "dateLabel": "10. 6. 2026",
       "title": "Z Budějovické přes Krčský les na Roztyly",
-      "mapUrl": "",
-      "image": "",
-      "distanceKm": null,
+      "mapUrl": "https://mapy.com/s/nuzasacabu",
+      "image": "images/route-2026-06-10.png",
+      "distanceKm": 8.7,
       "rating": 3,
-      "note": "",
+      "note": "šplhání na Nový Hrádek radši za sucha",
       "tags": [
         "městská trasa",
         "les",
         "metro"
       ],
       "start": {
-        "lat": 50.0446586,
-        "lng": 14.4487581
+        "lat": 50.0446919,
+        "lng": 14.4483089
       },
       "status": "completed",
       "difficulty": "",
@@ -35,7 +35,7 @@
       "image": "images/route-2026-06-22.png",
       "distanceKm": 12.6,
       "rating": 5,
-      "note": "",
+      "note": "údolí mezi Slivencem a Chuchlí není moc příjemné - zarostlé, obydlené prasaty",
       "tags": [
         "údolí",
         "stoupání",
@@ -58,7 +58,7 @@
       "image": "images/route-2026-06-24.png",
       "distanceKm": 13.2,
       "rating": 3,
-      "note": "",
+      "note": "z Průhonic se večer špatně dostává, raději plánovat obráceně",
       "tags": [
         "podél vody",
         "mimo Prahu"
@@ -76,11 +76,11 @@
       "date": "2026-06-30",
       "dateLabel": "30. 6. 2026",
       "title": "Z Neveklovské přes Jezerku na Florenc",
-      "mapUrl": "",
-      "image": "",
-      "distanceKm": null,
+      "mapUrl": "https://mapy.com/s/kerasavomu",
+      "image": "images/route-2026-06-30.png",
+      "distanceKm": 8.4,
       "rating": 2,
-      "note": "",
+      "note": "městská rychlovka s jediným šplháním na Grébovku",
       "tags": [
         "městská trasa",
         "podél vody"
@@ -102,11 +102,12 @@
       "image": "images/route-2026-07-01.png",
       "distanceKm": 12.5,
       "rating": 4,
-      "note": "",
+      "note": "super trasa, radši použít fofrtyče",
       "tags": [
         "stoupání",
         "les",
-        "mimo Prahu"
+        "mimo Prahu",
+        "výhledy"
       ],
       "start": {
         "lat": 49.9329833,
@@ -125,7 +126,7 @@
       "image": "images/route-2026-07-07.png",
       "distanceKm": 11.6,
       "rating": 2,
-      "note": "",
+      "note": "skoro pořád z kopce, několikrát přechod potoka po kamenech - při vyšší vodě se bude brodit",
       "tags": [
         "podél vody",
         "mimo Prahu"
@@ -147,7 +148,7 @@
       "image": "images/route-2026-07-09.png",
       "distanceKm": 14.3,
       "rating": 2,
-      "note": "",
+      "note": "v Dolních Počernicích radši jít na nádraží spodem, nepodcházet trať",
       "tags": [
         "rovná trasa",
         "mimo Prahu"
@@ -169,11 +170,12 @@
       "image": "images/route-2026-07-13.png",
       "distanceKm": 11.4,
       "rating": 5,
-      "note": "",
+      "note": "hodily by se fofrtyče, nutné jít s mobilem v ruce a hlídat trasu, hodně prudkých sestupů - nelze za mokra",
       "tags": [
         "kopcovitá",
         "les",
-        "rokle"
+        "rokle",
+        "výhledy"
       ],
       "start": {
         "lat": 50.021675,
