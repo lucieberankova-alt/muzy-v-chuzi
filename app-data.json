@@ -1,7 +1,7 @@
 {
   "appName": "Múzy v chůzi",
   "source": "Chození 2026.xlsx",
-  "generatedAt": "2026-07-13T17:13:08",
+  "generatedAt": "2026-07-14T09:51:55",
   "routes": [
     {
       "id": "2026-06-10",
@@ -159,6 +159,29 @@
       "status": "completed",
       "difficulty": "",
       "sourceSheet": "9. 7. "
+    },
+    {
+      "id": "2026-07-13",
+      "date": "2026-07-13",
+      "dateLabel": "13. 7. 2026",
+      "title": "Od IKEMu přes Modřany a Točnou na Zbraslav",
+      "mapUrl": "https://mapy.com/s/febopumupa",
+      "image": "images/route-2026-07-13.png",
+      "distanceKm": 11.4,
+      "rating": 5,
+      "note": "",
+      "tags": [
+        "kopcovitá",
+        "les",
+        "rokle"
+      ],
+      "start": {
+        "lat": 50.021675,
+        "lng": 14.4623947
+      },
+      "status": "completed",
+      "difficulty": "",
+      "sourceSheet": "13. 7. "
     }
   ],
   "plannedRoutes": [
