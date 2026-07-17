@@ -1,7 +1,7 @@
 window.MUZY_INITIAL_DATA = {
   "appName": "Múzy v chůzi",
   "source": "Chození 2026.xlsx",
-  "generatedAt": "2026-07-17T14:32:09",
+  "generatedAt": "2026-07-17T14:35:28",
   "routes": [
     {
       "id": "2026-06-10",
@@ -189,7 +189,7 @@ window.MUZY_INITIAL_DATA = {
       "id": "2026-07-15",
       "date": "2026-07-15",
       "dateLabel": "15. 7. 2026",
-      "title": "Levý Hradec - Roztoky přes Úholičky",
+      "title": "Levý Hradec - Sedlec přes Úholičky",
       "mapUrl": "https://mapy.com/s/jonefonumu",
       "image": "images/route-2026-07-15.png",
       "distanceKm": 14.5,
