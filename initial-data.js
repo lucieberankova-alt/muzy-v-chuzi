@@ -1,7 +1,7 @@
 window.MUZY_INITIAL_DATA = {
   "appName": "Múzy v chůzi",
   "source": "Chození 2026.xlsx",
-  "generatedAt": "2026-07-17T14:35:28",
+  "generatedAt": "2026-07-22T13:14:47",
   "routes": [
     {
       "id": "2026-06-10",
@@ -208,27 +208,32 @@ window.MUZY_INITIAL_DATA = {
       "status": "completed",
       "difficulty": "",
       "sourceSheet": "15. 7. "
-    }
-  ],
-  "plannedRoutes": [
+    },
     {
-      "id": "plan-černošice-horem-přes-radotín-zbraslav-a-modřeny",
-      "date": "",
-      "dateLabel": "plánováno",
-      "title": "Černošice horem přes Radotín, Zbraslav a Modřeny",
-      "mapUrl": "https://mapy.com/s/mezemugotu",
-      "image": "",
-      "distanceKm": 13.5,
-      "rating": 0,
-      "note": "",
-      "tags": [],
+      "id": "2026-07-20",
+      "date": "2026-07-20",
+      "dateLabel": "20. 7. 2026",
+      "title": "Černošice - Modřany přes golf a Zbraslav",
+      "mapUrl": "https://mapy.com/s/dacebonole",
+      "image": "images/route-2026-07-20.png",
+      "distanceKm": 11.2,
+      "rating": 2,
+      "note": "pohodová trasa, stoupání pouze ke kostelu na Zbraslavi, pozor na prudký sestup od kostela do města - kamenitý",
+      "tags": [
+        "podél vody",
+        "golfové hřiště",
+        "mimo Prahu"
+      ],
       "start": {
         "lat": 49.9595489,
         "lng": 14.3234225
       },
-      "status": "planned",
-      "sourceSheet": "Plánované"
-    },
+      "status": "completed",
+      "difficulty": "",
+      "sourceSheet": "20. 7."
+    }
+  ],
+  "plannedRoutes": [
     {
       "id": "plan-černošice-modřany-přes-golf-a-zbraslav",
       "date": "",
