@@ -1,7 +1,7 @@
 {
   "appName": "Múzy v chůzi",
   "source": "Chození 2026.xlsx",
-  "generatedAt": "2026-07-22T13:14:47",
+  "generatedAt": "2026-07-22T13:20:29",
   "routes": [
     {
       "id": "2026-06-10",
@@ -225,8 +225,8 @@
         "mimo Prahu"
       ],
       "start": {
-        "lat": 49.9595489,
-        "lng": 14.3234225
+        "lat": 49.9520047,
+        "lng": 14.3289344
       },
       "status": "completed",
       "difficulty": "",
