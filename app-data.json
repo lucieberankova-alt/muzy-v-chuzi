@@ -1,7 +1,7 @@
 {
   "appName": "Múzy v chůzi",
   "source": "Chození 2026.xlsx",
-  "generatedAt": "2026-07-27T13:54:07",
+  "generatedAt": "2026-07-27T16:10:43",
   "routes": [
     {
       "id": "2026-06-10",
@@ -488,6 +488,132 @@
       "start": {
         "lat": 50.0617333,
         "lng": 14.5966092
+      },
+      "status": "planned",
+      "sourceSheet": "Plánované"
+    },
+    {
+      "id": "plan-roztoky-dejvice-přes-lysolaje",
+      "date": "",
+      "dateLabel": "plánováno",
+      "title": "Roztoky - Dejvice: přes Lysolaje",
+      "mapUrl": "https://mapy.com/s/hejejubuda",
+      "image": "",
+      "distanceKm": 10.4,
+      "rating": 0,
+      "note": "",
+      "tags": [],
+      "start": {
+        "lat": 50.1593486,
+        "lng": 14.3978606
+      },
+      "status": "planned",
+      "sourceSheet": "Plánované"
+    },
+    {
+      "id": "plan-n-veleslavín-florenc-přes-dlabačov-a-malou-stranu",
+      "date": "",
+      "dateLabel": "plánováno",
+      "title": "N. Veleslavín - Florenc: přes Dlabačov a Malou Stranu",
+      "mapUrl": "https://mapy.com/s/hahugodese",
+      "image": "",
+      "distanceKm": 9.5,
+      "rating": 0,
+      "note": "",
+      "tags": [],
+      "start": {
+        "lat": 50.0957717,
+        "lng": 14.3469686
+      },
+      "status": "planned",
+      "sourceSheet": "Plánované"
+    },
+    {
+      "id": "plan-arbesovo-nám-holešovice-přes-hradčany-a-letnou",
+      "date": "",
+      "dateLabel": "plánováno",
+      "title": "Arbesovo nám - Holešovice: přes Hradčany a Letnou",
+      "mapUrl": "https://mapy.com/s/cahudacuva",
+      "image": "",
+      "distanceKm": 8.5,
+      "rating": 0,
+      "note": "",
+      "tags": [],
+      "start": {
+        "lat": 50.0760461,
+        "lng": 14.4040603
+      },
+      "status": "planned",
+      "sourceSheet": "Plánované"
+    },
+    {
+      "id": "plan-petřiny-florenc-přes-střešovice-hradčany-letnou",
+      "date": "",
+      "dateLabel": "plánováno",
+      "title": "Petřiny - Florenc: přes Střešovice, Hradčany, Letnou",
+      "mapUrl": "https://mapy.com/s/rafecevujo",
+      "image": "",
+      "distanceKm": 7.8,
+      "rating": 0,
+      "note": "",
+      "tags": [],
+      "start": {
+        "lat": 50.0875131,
+        "lng": 14.3447981
+      },
+      "status": "planned",
+      "sourceSheet": "Plánované"
+    },
+    {
+      "id": "plan-petřiny-florenc-přes-břevnov-pohořelec-hradčany-m-stranu",
+      "date": "",
+      "dateLabel": "plánováno",
+      "title": "Petřiny - Florenc: přes Břevnov, Pohořelec, Hradčany, M. Stranu",
+      "mapUrl": "https://mapy.com/s/pogavuzora",
+      "image": "",
+      "distanceKm": 7.8,
+      "rating": 0,
+      "note": "",
+      "tags": [],
+      "start": {
+        "lat": 50.0881156,
+        "lng": 14.3445922
+      },
+      "status": "planned",
+      "sourceSheet": "Plánované"
+    },
+    {
+      "id": "plan-tram-divoká-šárka-vltavská-přes-veleslavín-střešovice",
+      "date": "",
+      "dateLabel": "plánováno",
+      "title": "Tram Divoká Šárka - Vltavská: přes Veleslavín/ Střešovice",
+      "mapUrl": "https://mapy.com/s/momakuvoce",
+      "image": "",
+      "distanceKm": 9.3,
+      "rating": 0,
+      "note": "",
+      "tags": [],
+      "start": {
+        "lat": 50.09264,
+        "lng": 14.3244858
+      },
+      "status": "planned",
+      "sourceSheet": "Plánované"
+    },
+    {
+      "id": "plan-dubeč-vysočanská-kolem-rokytky-kyjského-rybníka",
+      "date": "",
+      "dateLabel": "plánováno",
+      "title": "Dubeč - Vysočanská: kolem Rokytky, Kyjského rybníka",
+      "mapUrl": "https://mapy.com/s/jupemuseba",
+      "image": "",
+      "distanceKm": 12.4,
+      "rating": 0,
+      "note": "",
+      "tags": [],
+      "start": {
+        "lat": 50.0654525,
+        "lng": 14.5969564
       },
       "status": "planned",
       "sourceSheet": "Plánované"
