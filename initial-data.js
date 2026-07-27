@@ -1,7 +1,7 @@
 window.MUZY_INITIAL_DATA = {
   "appName": "Múzy v chůzi",
   "source": "Chození 2026.xlsx",
-  "generatedAt": "2026-07-22T13:22:52",
+  "generatedAt": "2026-07-27T13:54:07",
   "routes": [
     {
       "id": "2026-06-10",
@@ -97,7 +97,7 @@ window.MUZY_INITIAL_DATA = {
       "id": "2026-07-01",
       "date": "2026-07-01",
       "dateLabel": "1. 7. 2026",
-      "title": "Ze Všenor přes Jíloviště na Zbraslav",
+      "title": "Všenory - Zbraslav: přes Jíloviště",
       "mapUrl": "https://mapy.com/s/cebubezodu",
       "image": "images/route-2026-07-01.png",
       "distanceKm": 12.5,
@@ -121,7 +121,7 @@ window.MUZY_INITIAL_DATA = {
       "id": "2026-07-07",
       "date": "2026-07-07",
       "dateLabel": "7. 7. 2026",
-      "title": "Z Psár přes Záhořanský potok do Davle žst",
+      "title": "Psáry - Davle ŽST: přes Záhořanský potok",
       "mapUrl": "https://mapy.com/s/cekudubame",
       "image": "images/route-2026-07-07.png",
       "distanceKm": 11.6,
@@ -143,7 +143,7 @@ window.MUZY_INITIAL_DATA = {
       "id": "2026-07-09",
       "date": "2026-07-09",
       "dateLabel": "9. 7. 2026",
-      "title": "Z Úval do Dolních Počernic",
+      "title": "Úvaly - Dolní Počernice",
       "mapUrl": "https://mapy.com/s/mocumahapa",
       "image": "images/route-2026-07-09.png",
       "distanceKm": 14.3,
@@ -165,7 +165,7 @@ window.MUZY_INITIAL_DATA = {
       "id": "2026-07-13",
       "date": "2026-07-13",
       "dateLabel": "13. 7. 2026",
-      "title": "Od IKEMu přes Modřany a Točnou na Zbraslav",
+      "title": "Krč IKEM - Zbraslav: přes Modřany a Točnou",
       "mapUrl": "https://mapy.com/s/febopumupa",
       "image": "images/route-2026-07-13.png",
       "distanceKm": 11.4,
@@ -189,7 +189,7 @@ window.MUZY_INITIAL_DATA = {
       "id": "2026-07-15",
       "date": "2026-07-15",
       "dateLabel": "15. 7. 2026",
-      "title": "Levý Hradec - Sedlec přes Úholičky",
+      "title": "Levý Hradec - Sedlec: přes Úholičky",
       "mapUrl": "https://mapy.com/s/jonefonumu",
       "image": "images/route-2026-07-15.png",
       "distanceKm": 14.5,
@@ -213,7 +213,7 @@ window.MUZY_INITIAL_DATA = {
       "id": "2026-07-20",
       "date": "2026-07-20",
       "dateLabel": "20. 7. 2026",
-      "title": "Černošice - Modřany přes golf a Zbraslav",
+      "title": "Černošice - Modřany: přes golf a Zbraslav",
       "mapUrl": "https://mapy.com/s/dacebonole",
       "image": "images/route-2026-07-20.png",
       "distanceKm": 11.2,
@@ -231,6 +231,30 @@ window.MUZY_INITIAL_DATA = {
       "status": "completed",
       "difficulty": "",
       "sourceSheet": "20. 7."
+    },
+    {
+      "id": "2026-07-22",
+      "date": "2026-07-22",
+      "dateLabel": "22. 7. 2026",
+      "title": "Vrané n. Vltavou - Zbraslav: přes Zvoli a Závist",
+      "mapUrl": "https://mapy.com/s/jopulefuso",
+      "image": "images/route-2026-07-22.png",
+      "distanceKm": 11.1,
+      "rating": 5,
+      "note": "kratší ale intenzivní trasa - dvě větší stoupání prakticky od řeky až na vrchy nad řekou (do Zvole; na Závist)",
+      "tags": [
+        "vrcholy nad Vltavou",
+        "mimo Prahu",
+        "les",
+        "hradiště"
+      ],
+      "start": {
+        "lat": 49.9385794,
+        "lng": 14.3813161
+      },
+      "status": "completed",
+      "difficulty": "",
+      "sourceSheet": "22. 7."
     }
   ],
   "plannedRoutes": [
