@@ -1,7 +1,7 @@
 window.MUZY_INITIAL_DATA = {
   "appName": "Múzy v chůzi",
   "source": "Chození 2026.xlsx",
-  "generatedAt": "2026-07-27T16:10:43",
+  "generatedAt": "2026-07-27T16:43:00",
   "routes": [
     {
       "id": "2026-06-10",
@@ -493,10 +493,10 @@ window.MUZY_INITIAL_DATA = {
       "sourceSheet": "Plánované"
     },
     {
-      "id": "plan-roztoky-dejvice-přes-lysolaje",
+      "id": "plan-roztoky-dejvice-po-žluté-nad-tratí-přes-suchdol-a-babu",
       "date": "",
       "dateLabel": "plánováno",
-      "title": "Roztoky - Dejvice: přes Lysolaje",
+      "title": "Roztoky - Dejvice: po žluté nad tratí přes Suchdol a Babu",
       "mapUrl": "https://mapy.com/s/hejejubuda",
       "image": "",
       "distanceKm": 10.4,
@@ -506,6 +506,42 @@ window.MUZY_INITIAL_DATA = {
       "start": {
         "lat": 50.1593486,
         "lng": 14.3978606
+      },
+      "status": "planned",
+      "sourceSheet": "Plánované"
+    },
+    {
+      "id": "plan-roztoky-bořislavka-po-modré-tichým-údolím-lysolaje-šárka",
+      "date": "",
+      "dateLabel": "plánováno",
+      "title": "Roztoky - Bořislavka: po modré Tichým údolím, Lysolaje, Šárka",
+      "mapUrl": "https://mapy.com/s/bafetohoke",
+      "image": "",
+      "distanceKm": 11.1,
+      "rating": 0,
+      "note": "",
+      "tags": [],
+      "start": {
+        "lat": 50.1586903,
+        "lng": 14.3975483
+      },
+      "status": "planned",
+      "sourceSheet": "Plánované"
+    },
+    {
+      "id": "plan-roztoky-veleslavín-západní-cestou-přes-horoměřice",
+      "date": "",
+      "dateLabel": "plánováno",
+      "title": "Roztoky - Veleslavín: západní cestou přes Horoměřice",
+      "mapUrl": "https://mapy.com/s/hepazevena",
+      "image": "",
+      "distanceKm": 12.0,
+      "rating": 0,
+      "note": "",
+      "tags": [],
+      "start": {
+        "lat": 50.1587961,
+        "lng": 14.3969289
       },
       "status": "planned",
       "sourceSheet": "Plánované"
@@ -547,10 +583,10 @@ window.MUZY_INITIAL_DATA = {
       "sourceSheet": "Plánované"
     },
     {
-      "id": "plan-petřiny-florenc-přes-střešovice-hradčany-letnou",
+      "id": "plan-petřiny-florenc-přes-střešovice-hradčany-belveder-letnou",
       "date": "",
       "dateLabel": "plánováno",
-      "title": "Petřiny - Florenc: přes Střešovice, Hradčany, Letnou",
+      "title": "Petřiny - Florenc: přes Střešovice, Hradčany, Belveder, Letnou",
       "mapUrl": "https://mapy.com/s/rafecevujo",
       "image": "",
       "distanceKm": 7.8,
@@ -565,10 +601,10 @@ window.MUZY_INITIAL_DATA = {
       "sourceSheet": "Plánované"
     },
     {
-      "id": "plan-petřiny-florenc-přes-břevnov-pohořelec-hradčany-m-stranu",
+      "id": "plan-petřiny-florenc-přes-břevnov-pohořelec-m-stranu-karlův-m",
       "date": "",
       "dateLabel": "plánováno",
-      "title": "Petřiny - Florenc: přes Břevnov, Pohořelec, Hradčany, M. Stranu",
+      "title": "Petřiny - Florenc: přes Břevnov, Pohořelec, M. Stranu, Karlův m.",
       "mapUrl": "https://mapy.com/s/pogavuzora",
       "image": "",
       "distanceKm": 7.8,
@@ -614,6 +650,42 @@ window.MUZY_INITIAL_DATA = {
       "start": {
         "lat": 50.0654525,
         "lng": 14.5969564
+      },
+      "status": "planned",
+      "sourceSheet": "Plánované"
+    },
+    {
+      "id": "plan-brandýs-n-labem-satalice-přes-vinoř",
+      "date": "",
+      "dateLabel": "plánováno",
+      "title": "Brandýs n. Labem - Satalice: přes Vinoř",
+      "mapUrl": "https://mapy.com/s/gefomazuru",
+      "image": "",
+      "distanceKm": 13.5,
+      "rating": 0,
+      "note": "",
+      "tags": [],
+      "start": {
+        "lat": 50.1832611,
+        "lng": 14.6566794
+      },
+      "status": "planned",
+      "sourceSheet": "Plánované"
+    },
+    {
+      "id": "plan-číčovice-u-okoře-n-veleslavín-přes-tuchoměřice-nebušice",
+      "date": "",
+      "dateLabel": "plánováno",
+      "title": "Číčovice (u Okoře) - N. Veleslavín: přes Tuchoměřice, Nebušice",
+      "mapUrl": "https://mapy.com/s/besanekoho",
+      "image": "",
+      "distanceKm": 13.3,
+      "rating": 0,
+      "note": "",
+      "tags": [],
+      "start": {
+        "lat": 50.1568908,
+        "lng": 14.2490958
       },
       "status": "planned",
       "sourceSheet": "Plánované"
