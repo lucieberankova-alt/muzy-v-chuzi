@@ -1,7 +1,7 @@
 window.MUZY_INITIAL_DATA = {
   "appName": "Múzy v chůzi",
   "source": "Chození 2026.xlsx",
-  "generatedAt": "2026-07-27T16:43:00",
+  "generatedAt": "2026-07-28T10:29:41",
   "routes": [
     {
       "id": "2026-06-10",
@@ -255,6 +255,30 @@ window.MUZY_INITIAL_DATA = {
       "status": "completed",
       "difficulty": "",
       "sourceSheet": "22. 7."
+    },
+    {
+      "id": "2026-07-27",
+      "date": "2026-07-27",
+      "dateLabel": "27. 7. 2026",
+      "title": "Vestec - Budějovická",
+      "mapUrl": "https://mapy.com/s/nelegacuva",
+      "image": "images/route-2026-07-27.png",
+      "distanceKm": 12.9,
+      "rating": 2,
+      "note": "příjemná trasa, žádná velká stoupání, kolem Kunratického potoka, rybníků a městskými lesy",
+      "tags": [
+        "podél vody",
+        "rybníky",
+        "les",
+        "metro"
+      ],
+      "start": {
+        "lat": 49.9837683,
+        "lng": 14.4953003
+      },
+      "status": "completed",
+      "difficulty": "",
+      "sourceSheet": "27. 7."
     }
   ],
   "plannedRoutes": [
