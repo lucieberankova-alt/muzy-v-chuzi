@@ -1,7 +1,7 @@
 {
   "appName": "Múzy v chůzi",
   "source": "Chození 2026.xlsx",
-  "generatedAt": "2026-07-28T10:29:41",
+  "generatedAt": "2026-07-28T10:30:31",
   "routes": [
     {
       "id": "2026-06-10",
@@ -386,24 +386,6 @@
       "start": {
         "lat": 49.8945147,
         "lng": 14.2992328
-      },
-      "status": "planned",
-      "sourceSheet": "Plánované"
-    },
-    {
-      "id": "plan-vestec-budějovická",
-      "date": "",
-      "dateLabel": "plánováno",
-      "title": "Vestec - Budějovická",
-      "mapUrl": "https://mapy.com/s/kubujekofe",
-      "image": "",
-      "distanceKm": 12.9,
-      "rating": 0,
-      "note": "",
-      "tags": [],
-      "start": {
-        "lat": 49.9837683,
-        "lng": 14.4953003
       },
       "status": "planned",
       "sourceSheet": "Plánované"
