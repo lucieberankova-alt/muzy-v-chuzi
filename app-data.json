@@ -1,7 +1,7 @@
 {
   "appName": "Múzy v chůzi",
   "source": "Chození 2026.xlsx",
-  "generatedAt": "2026-07-28T10:32:46",
+  "generatedAt": "2026-07-29T14:48:11",
   "routes": [
     {
       "id": "2026-06-10",
@@ -279,6 +279,30 @@
       "status": "completed",
       "difficulty": "",
       "sourceSheet": "27. 7."
+    },
+    {
+      "id": "trasa",
+      "date": "",
+      "dateLabel": "",
+      "title": "Nezadaná trasa",
+      "mapUrl": "https://mapy.com/s/nocenugeko",
+      "image": "images/route-trasa.png",
+      "distanceKm": 11.1,
+      "rating": 3,
+      "note": "klasická městská trasa, chytré napojení na stezku kolem řeky (Florenc - Libeň), pak stoupák na Kobylisy (pozor na bezpečnost)",
+      "tags": [
+        "městská trasa",
+        "centrum",
+        "podél vody",
+        "stoupání"
+      ],
+      "start": {
+        "lat": 50.0785294,
+        "lng": 14.4041653
+      },
+      "status": "completed",
+      "difficulty": "",
+      "sourceSheet": "28. 7."
     }
   ],
   "plannedRoutes": [
