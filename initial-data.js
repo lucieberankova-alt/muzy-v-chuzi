@@ -1,7 +1,7 @@
 window.MUZY_INITIAL_DATA = {
   "appName": "Múzy v chůzi",
   "source": "Chození 2026.xlsx",
-  "generatedAt": "2026-07-29T14:50:21",
+  "generatedAt": "2026-07-29T14:53:14",
   "routes": [
     {
       "id": "2026-06-10",
@@ -281,12 +281,12 @@ window.MUZY_INITIAL_DATA = {
       "sourceSheet": "27. 7."
     },
     {
-      "id": "trasa",
-      "date": "",
-      "dateLabel": "",
-      "title": "Nezadaná trasa",
+      "id": "2026-07-28",
+      "date": "2026-07-28",
+      "dateLabel": "28. 7. 2026",
+      "title": "Smíchov - Kobylisy: přes Libeň",
       "mapUrl": "https://mapy.com/s/nocenugeko",
-      "image": "images/route-trasa.png",
+      "image": "images/route-2026-07-28.png",
       "distanceKm": 11.1,
       "rating": 3,
       "note": "klasická městská trasa, chytré napojení na stezku kolem řeky (Florenc - Libeň), pak stoupák na Kobylisy (pozor na bezpečnost)",
