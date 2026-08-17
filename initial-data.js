@@ -1,7 +1,7 @@
 window.MUZY_INITIAL_DATA = {
   "appName": "Múzy v chůzi",
   "source": "Chození 2026.xlsx",
-  "generatedAt": "2026-08-17T15:56:52",
+  "generatedAt": "2026-08-17T16:01:35",
   "routes": [
     {
       "id": "2026-06-10",
@@ -331,7 +331,7 @@ window.MUZY_INITIAL_DATA = {
       "id": "2026-08-15",
       "date": "2026-08-15",
       "dateLabel": "15. 8. 2026",
-      "title": "BONUSOVKA: Pohoří n. Šum. - Kapelunk - Bělá",
+      "title": "MIMOPRAŽSKÁ BONUSOVKA:\nPohoří n. Šum. - Kapelunk - Bělá",
       "mapUrl": "https://mapy.com/s/davecovodu",
       "image": "images/route-2026-08-15.png",
       "distanceKm": 19.0,
