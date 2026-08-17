@@ -1,7 +1,7 @@
 {
   "appName": "Múzy v chůzi",
   "source": "Chození 2026.xlsx",
-  "generatedAt": "2026-08-17T16:03:47",
+  "generatedAt": "2026-08-17T16:06:40",
   "routes": [
     {
       "id": "2026-06-10",
@@ -313,11 +313,11 @@
       "image": "images/route-2026-08-11.png",
       "distanceKm": 10.9,
       "rating": 2,
-      "note": "zkrácená trasa (původně  https://mapy.com/s/gejubazopo  ) kvůli zdravotním problémům; chůze po silnici nepříjemná",
+      "note": "původně https://mapy.com/s/gejubazopo, na místě zkrácena kvůli zdravotním problémům; chůze po silnici nepříjemná",
       "tags": [
         "mimo Prahu",
         "výhledy",
-        "silnice :("
+        "nepříjemná silnice"
       ],
       "start": {
         "lat": 50.159645,
