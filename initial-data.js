@@ -1,7 +1,7 @@
 window.MUZY_INITIAL_DATA = {
   "appName": "Múzy v chůzi",
   "source": "Chození 2026.xlsx",
-  "generatedAt": "2026-08-17T15:52:44",
+  "generatedAt": "2026-08-17T15:56:52",
   "routes": [
     {
       "id": "2026-06-10",
