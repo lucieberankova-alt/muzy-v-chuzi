@@ -1,7 +1,7 @@
 {
   "appName": "Múzy v chůzi",
   "source": "Chození 2026.xlsx",
-  "generatedAt": "2026-08-17T16:07:50",
+  "generatedAt": "2026-09-09T16:35:49",
   "routes": [
     {
       "id": "2026-06-10",
@@ -347,6 +347,97 @@
       "status": "completed",
       "difficulty": "",
       "sourceSheet": "15.8."
+    },
+    {
+      "id": "2026-08-26",
+      "date": "2026-08-26",
+      "dateLabel": "26. 8. 2026",
+      "title": "Řež - Praha-Troja: kolem řeky",
+      "mapUrl": "https://mapy.com/s/dabuhesuka",
+      "image": "images/route-2026-08-26.png",
+      "distanceKm": 12.5,
+      "rating": 2,
+      "note": "podél Vltavy, pohoda, řeka, šplhání jen na začátku přes kopec v Řeži",
+      "tags": [
+        "mimo Prahu",
+        "podél vody"
+      ],
+      "start": {
+        "lat": 50.1794053,
+        "lng": 14.3557061
+      },
+      "status": "completed",
+      "difficulty": "",
+      "sourceSheet": "26.8."
+    },
+    {
+      "id": "2026-08-27",
+      "date": "2026-08-27",
+      "dateLabel": "27. 8. 2026",
+      "title": "Olbrachtova - Florenc: přes náplavku a centrum",
+      "mapUrl": "https://mapy.com/s/bafefubevu",
+      "image": "images/route-2026-08-27.png",
+      "distanceKm": 9.7,
+      "rating": 2,
+      "note": "pohodová trasa, náplavka, řeka, centrum",
+      "tags": [
+        "městská trasa",
+        "podél vody"
+      ],
+      "start": {
+        "lat": 50.0436019,
+        "lng": 14.4426814
+      },
+      "status": "completed",
+      "difficulty": "",
+      "sourceSheet": "27.8."
+    },
+    {
+      "id": "2026-09-01",
+      "date": "2026-09-01",
+      "dateLabel": "1. 9. 2026",
+      "title": "Ládví - Ďáblická hvězdárna - vozovna Kobylisy",
+      "mapUrl": "https://mapy.com/s/ragujuvuja",
+      "image": "images/route-2026-09-01.png",
+      "distanceKm": 5.1,
+      "rating": 2,
+      "note": "krátká náhrada za zrušené cvičení, metro, les, hvězdárna, výhled",
+      "tags": [
+        "městská trasa",
+        "les",
+        "metro",
+        "výhled"
+      ],
+      "start": {
+        "lat": 50.1268714,
+        "lng": 14.4700717
+      },
+      "status": "completed",
+      "difficulty": "",
+      "sourceSheet": "1. 9."
+    },
+    {
+      "id": "2026-09-08",
+      "date": "2026-09-08",
+      "dateLabel": "8. 9. 2026",
+      "title": "Smíchov - Břevnov - Veleslavín - Hradčanská",
+      "mapUrl": "https://mapy.com/s/pujazakase",
+      "image": "images/route-2026-09-08.png",
+      "distanceKm": 10.5,
+      "rating": 4,
+      "note": "kardio trasa - na začátku slušné stoupání téměř 200 výškových metrů a celou cestu trochu nahoru - dolu",
+      "tags": [
+        "městská trasa",
+        "stoupání",
+        "zeleň"
+      ],
+      "start": {
+        "lat": 50.0783919,
+        "lng": 14.4043933
+      },
+      "status": "completed",
+      "difficulty": "",
+      "sourceSheet": "8. 9."
     }
   ],
   "plannedRoutes": [
